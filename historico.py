@@ -244,8 +244,8 @@ def app():
             fig.update_traces(marker=dict(size=8))
             fig.update_layout(
                 legend=dict(
-                    font=dict(size=8),  # размер на текста в легендата
-                    itemsizing='constant'  # държи символите малки
+                    font=dict(size=8),  
+                    itemsizing='constant'  
                 )
             )
             st.plotly_chart(fig, use_container_width=True)
